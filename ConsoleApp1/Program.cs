@@ -22,7 +22,7 @@ namespace ConsoleApp1
             num1=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("ingresa el segundo numero: ");
             num2=Convert.ToInt32(Console.ReadLine());
-
+            123123123123
 
 
 
