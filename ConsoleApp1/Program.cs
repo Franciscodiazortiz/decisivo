@@ -22,16 +22,17 @@ namespace ConsoleApp1
             num1=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("ingresa el segundo numero: ");
             num2=Convert.ToInt32(Console.ReadLine());
-            
-
-
-
-
-
-
-
-
-
+            //3.Realizar operaciones
+            resSuma = num1 + num2;
+            resResta = num1 - num2;
+            resMulti = num1 * num2;
+            resDiv = num1 / num2;
+            //4. Mostrar resultados
+            Console.WriteLine("suma: " + resSuma);
+            Console.WriteLine("resta: " + resResta);
+            Console.WriteLine("multiplicacion: " + resMulti);
+            Console.WriteLine("division: " + resDiv);
+            Console.ReadLine();
 
 
         }
